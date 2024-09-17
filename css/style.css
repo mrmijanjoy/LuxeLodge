@@ -4,3 +4,23 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.h-font {
+	font-family: "Merienda", cursive;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.custom-bg {
+	background-color: #2ec1ec;
+}
+.custom-bg:hover {
+	background-color: #279e8c;
+}
+

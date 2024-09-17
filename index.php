@@ -9,30 +9,12 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	<style>
-		body {
-			font-family: 'Poppins', sans-serif;
-		}
-		.h-font {
-			font-family: "Merienda", cursive;
-		}
-		input[type=number]::-webkit-inner-spin-button, 
-		input[type=number]::-webkit-outer-spin-button { 
-		    -webkit-appearance: none;
-		    -moz-appearance: none;
-		    appearance: none;
-		    margin: 0; 
-		}
-		.custom-bg {
-			background-color: #2ec1ec;
-		}
-		.custom-bg:hover {
-			background-color: #279e8c;
-		}
 		.availability-form {
 			position: relative;
 			margin-top: -50px;
@@ -254,8 +236,176 @@
 </div>
 
 
+<!-- Room cards======================================== -->
 
+<h2 class="mt-5 pt-5 mb-4 text-center fw-bold h-font">OUR ROOMS</h2>
 
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-md-6 my-3">
+			<div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+			  <img src="images/rooms/1.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">King's accommodation</h5>
+			    <h6 class="mb-4">$50/per night</h6>
+			    <div class="features mb-4">
+			    	<h6 class="mb-1">Features</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		2 Rooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Bathrooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Belcony
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		3 Sofa
+			      	</span>
+			    </div>
+			    <div class="facilities mb-4">
+			    	<h6 class="mb-1">Facilities</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		Wifi
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Television
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		AC
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Room heater
+			      	</span>
+			    </div>
+			    <div class="rating mb-4">
+			    	<h6 class="mb-1">Rating</h6>
+			 		<span class="badge rounded-pill bg-light">
+			 			<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+			 		</span>
+			    </div>
+			    <div class="d-flex justify-content-evenly mb-2">
+			    	<a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+			    	<a href="#" class="btn btn-sm  btn-outline-dark shadow-none">More Details</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 my-3">
+			<div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+			  <img src="images/rooms/4.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">King's accommodation</h5>
+			    <h6 class="mb-4">$50/per night</h6>
+			    <div class="features mb-4">
+			    	<h6 class="mb-1">Features</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		2 Rooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Bathrooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Belcony
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		3 Sofa
+			      	</span>
+			    </div>
+			    <div class="facilities mb-4">
+			    	<h6 class="mb-1">Facilities</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		Wifi
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Television
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		AC
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Room heater
+			      	</span>
+			    </div>
+			    <div class="rating mb-4">
+			    	<h6 class="mb-1">Rating</h6>
+			 		<span class="badge rounded-pill bg-light">
+			 			<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+			 		</span>
+			    </div>
+			    <div class="d-flex justify-content-evenly mb-2">
+			    	<a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+			    	<a href="#" class="btn btn-sm  btn-outline-dark shadow-none">More Details</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 my-3">
+			<div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+			  <img src="images/rooms/6.png" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">King's accommodation</h5>
+			    <h6 class="mb-4">$50/per night</h6>
+			    <div class="features mb-4">
+			    	<h6 class="mb-1">Features</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		2 Rooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Bathrooms
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		1 Belcony
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		3 Sofa
+			      	</span>
+			    </div>
+			    <div class="facilities mb-4">
+			    	<h6 class="mb-1">Facilities</h6>
+			    	<span class="badge text-bg-light text-dark text-wrap">
+			      		Wifi
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Television
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		AC
+			      	</span>
+			      	<span class="badge text-bg-light text-dark text-wrap">
+			      		Room heater
+			      	</span>
+			    </div>
+			    <div class="rating mb-4">
+			    	<h6 class="mb-1">Rating</h6>
+			 		<span class="badge rounded-pill bg-light">
+			 			<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+				 		<i class="bi bi-star-fill text-warning"></i>
+			 		</span>
+			    </div>
+			    <div class="d-flex justify-content-evenly mb-2">
+			    	<a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+			    	<a href="#" class="btn btn-sm  btn-outline-dark shadow-none">More Details</a>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-lg-12 mt-5 text-center">
+			<a href="" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More rooms >>></a>
+		</div>
+	</div>
+</div>
 
 
 <br><br><br>
